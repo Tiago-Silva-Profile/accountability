@@ -1,0 +1,9 @@
+
+<div class="nav-items">
+  <div class="nav-item" *ngFor="let item of menuItems">
+    <a [routerLink]="item.link" style="color: white;">
+      <fa-icon [icon]="item.icon"></fa-icon>
+      <span>{{ item.title }}</span>
+    </a>
+  </div>
+</div>
