@@ -40,9 +40,9 @@ export class SideNavComponent{
 
   menuItems: MenuItem[] = [
     { title: 'Dashboard', icon: faDashboard, link: '/dashboard' },
-    { title: 'Location', icon: faLocation, link: '/location' },
-    { title: 'Shops', icon: faShop, link: '/shops' },
-    { title: 'Products', icon: faBox, link: '/products' },
+    { title: 'Talões', icon: faLocation, link: '/lugs' },
+    { title: 'Registro', icon: faShop, link: '/register' },
+    { title: 'Validação', icon: faBox, link: '/products' },
     { title: 'Sales', icon: faMoneyBill, link: '/sales' },
     { title: 'Statistics', icon: faChartBar, link: '/statistics' },
     { title: 'Contact', icon: faContactBook, link: '/contact' },

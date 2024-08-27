@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "allowedCommonJsDependencies": [ "highcharts", "highcharts/highmaps"],
             "outputPath": "dist/accountability-ui",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -22,7 +23,7 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
-                "glob": "**/*",
+                "glob": "./assets",
                 "input": "public"
               }
             ],

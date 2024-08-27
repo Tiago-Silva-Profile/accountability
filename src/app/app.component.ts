@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HomeComponent } from './home/home.component';
+import { HomeLugsComponent } from './lugs/home-lugs/home-lugs.component';
 import { MainComponent } from './main/main.component';
 import { HeaderComponent } from './header/header.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
@@ -10,7 +10,7 @@ import { SideNavComponent } from './side-nav/side-nav.component';
   standalone: true,
   imports: [
     RouterOutlet,
-    HomeComponent,
+    HomeLugsComponent,
     MainComponent,
     HeaderComponent,
     SideNavComponent

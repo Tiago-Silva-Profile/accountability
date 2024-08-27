@@ -60,7 +60,7 @@ export class SalesByCategoryComponent implements OnInit {
         },
         {
           name: 'Appliances',
-          y: 3.5,
+          y: 19.5,
           color: '#121212',
         },
       ]
