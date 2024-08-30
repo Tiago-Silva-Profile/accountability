@@ -42,10 +42,10 @@ export class SideNavComponent{
     { title: 'Dashboard', icon: faDashboard, link: '/dashboard' },
     { title: 'Talões', icon: faLocation, link: '/lugs' },
     { title: 'Registro', icon: faShop, link: '/register' },
-    { title: 'Validação', icon: faBox, link: '/products' },
-    { title: 'Sales', icon: faMoneyBill, link: '/sales' },
-    { title: 'Statistics', icon: faChartBar, link: '/statistics' },
-    { title: 'Contact', icon: faContactBook, link: '/contact' },
-    { title: 'Help', icon: faHand, link: '/help' },
+    // { title: 'Validação', icon: faBox, link: '/products' },
+    // { title: 'Sales', icon: faMoneyBill, link: '/sales' },
+    // { title: 'Statistics', icon: faChartBar, link: '/statistics' },
+    // { title: 'Contact', icon: faContactBook, link: '/contact' },
+    // { title: 'Help', icon: faHand, link: '/help' },
   ];
 }

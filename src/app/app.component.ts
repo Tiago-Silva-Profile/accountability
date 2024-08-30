@@ -4,6 +4,7 @@ import { HomeLugsComponent } from './lugs/home-lugs/home-lugs.component';
 import { MainComponent } from './main/main.component';
 import { HeaderComponent } from './header/header.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +14,8 @@ import { SideNavComponent } from './side-nav/side-nav.component';
     HomeLugsComponent,
     MainComponent,
     HeaderComponent,
-    SideNavComponent
+    SideNavComponent,
+    ReactiveFormsModule
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
