@@ -40,20 +40,20 @@ export class RegisterComponent implements OnInit {
     });
   }
 
-    onSubmit() {
-      if (this.registerForm.valid) {
-        // Handle form submission
-        console.log(this.registerForm.value);
-        alert('Formulário enviado com sucesso!');
-      } else {
-        console.log(this.registerForm);
-        // Ação se o formulário não for válido
-        alert('Por favor, preencha todos os campos obrigatórios corretamente.');
-      }
+  onSubmit() {
+    if (this.registerForm.valid) {
+      // Handle form submission
+      console.log(this.registerForm.value);
+      alert('Formulário enviado com sucesso!');
+    } else {
+      console.log(this.registerForm);
+      // Ação se o formulário não for válido
+      alert('Por favor, preencha todos os campos obrigatórios corretamente.');
     }
+  }
 
-    clearForm(): void {
-      console.log("teste");
-    }
+  clearForm(): void {
+    console.log("teste");
+  }
 
 }
